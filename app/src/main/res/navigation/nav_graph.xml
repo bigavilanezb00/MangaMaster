@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/recienteFragment"
+        android:name="com.example.mangamaster.RecienteFragment"
+        android:label="fragment_reciente"
+        tools:layout="@layout/fragment_reciente" >
+        <action
+            android:id="@+id/action_recienteFragment_to_tokyoRevengersFragment"
+            app:destination="@id/tokyoRevengersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mangamaster.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_singupFragment"
+            app:destination="@id/singupFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_facebookFragment"
+            app:destination="@id/facebookFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_outlookFragment"
+            app:destination="@id/outlookFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_googleFragment"
+            app:destination="@id/googleFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_recienteFragment2"
+            app:destination="@id/recienteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singupFragment"
+        android:name="com.example.mangamaster.SingupFragment"
+        android:label="fragment_singup"
+        tools:layout="@layout/fragment_singup" >
+        <action
+            android:id="@+id/action_singupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_singupFragment_to_recienteFragment2"
+            app:destination="@id/recienteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/facebookFragment"
+        android:name="com.example.mangamaster.FacebookFragment"
+        android:label="fragment_facebook"
+        tools:layout="@layout/fragment_facebook" >
+        <action
+            android:id="@+id/action_facebookFragment_to_recienteFragment2"
+            app:destination="@id/recienteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/outlookFragment"
+        android:name="com.example.mangamaster.OutlookFragment"
+        android:label="fragment_outlook"
+        tools:layout="@layout/fragment_outlook" >
+        <action
+            android:id="@+id/action_outlookFragment_to_recienteFragment2"
+            app:destination="@id/recienteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleFragment"
+        android:name="com.example.mangamaster.GoogleFragment"
+        android:label="fragment_google"
+        tools:layout="@layout/fragment_google" >
+        <action
+            android:id="@+id/action_googleFragment_to_recienteFragment2"
+            app:destination="@id/recienteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.mangamaster.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/favoritosFragment"
+        android:name="com.example.mangamaster.FavoritosFragment"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="com.example.mangamaster.AjustesFragment"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+    <fragment
+        android:id="@+id/destacadoFragment"
+        android:name="com.example.mangamaster.DestacadoFragment"
+        android:label="fragment_destacado"
+        tools:layout="@layout/fragment_destacado" />
+    <fragment
+        android:id="@+id/tokyoRevengersFragment"
+        android:name="com.example.mangamaster.TokyoRevengersFragment"
+        android:label="fragment_tokyo_revengers"
+        tools:layout="@layout/fragment_tokyo_revengers" >
+        <action
+            android:id="@+id/action_tokyoRevengersFragment_to_recienteFragment"
+            app:destination="@id/recienteFragment" />
+    </fragment>
+</navigation>
