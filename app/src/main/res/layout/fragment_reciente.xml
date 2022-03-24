@@ -24,8 +24,8 @@
             <ImageView
                 android:id="@+id/header1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="center"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
                 android:src="@drawable/header_inicio"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
