@@ -6,9 +6,11 @@
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/drawable/bottom_graph.xml" value="0.2445" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_ajustes.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_buscador.xml" value="0.31402439024390244" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_destacado.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_destacados.xml" value="0.176" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_facebook.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_favoritos.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_google.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_outlook.xml" value="0.25416666666666665" />
@@ -16,6 +18,7 @@
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_search.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_singup.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_tokyo_revengers.xml" value="0.536" />
+        <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/layout/fragment_top_animes.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/bryan/AndroidStudioProjects/MangaMaster/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
       </map>
     </option>

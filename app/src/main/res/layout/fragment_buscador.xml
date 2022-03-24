@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".BuscadorFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SearchView
+                android:id="@+id/txtBuscar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@color/white"
+                android:backgroundTint="#FFFFFF"
+                android:closeIcon="@drawable/ic_baseline_buscador"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/manga201"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga201"
+                app:layout_constraintEnd_toStartOf="@+id/manga202"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtBuscar" />
+
+            <TextView
+                android:id="@+id/agravity_boys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Agravity Boys"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga204"
+                app:layout_constraintEnd_toStartOf="@+id/blue_flag"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/manga201" />
+
+            <ImageButton
+                android:id="@+id/manga202"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="24dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga202"
+                app:layout_constraintEnd_toStartOf="@+id/manga203"
+                app:layout_constraintStart_toEndOf="@+id/manga201"
+                app:layout_constraintTop_toBottomOf="@+id/txtBuscar" />
+
+            <TextView
+                android:id="@+id/blue_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Blue Flag"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga205"
+                app:layout_constraintEnd_toStartOf="@+id/aragane_no_ko"
+                app:layout_constraintStart_toEndOf="@+id/agravity_boys"
+                app:layout_constraintTop_toBottomOf="@id/manga202"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageButton
+                android:id="@+id/manga203"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga203"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/manga202"
+                app:layout_constraintTop_toBottomOf="@+id/txtBuscar" />
+
+            <TextView
+                android:id="@+id/aragane_no_ko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Aragane  no Ko"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga206"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/blue_flag"
+                app:layout_constraintTop_toBottomOf="@id/manga203" />
+
+            <ImageButton
+                android:id="@+id/manga204"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga204"
+                app:layout_constraintEnd_toStartOf="@+id/manga205"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/agravity_boys" />
+
+            <TextView
+                android:id="@+id/ansatsu_kyoushitsu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ansatsu Kyoushitsu"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga207"
+                app:layout_constraintEnd_toStartOf="@id/ayakashi_triangle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/manga204" />
+
+            <ImageButton
+                android:id="@+id/manga205"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga205"
+                app:layout_constraintEnd_toStartOf="@+id/manga206"
+                app:layout_constraintStart_toEndOf="@+id/manga204"
+                app:layout_constraintTop_toBottomOf="@+id/blue_flag" />
+
+            <TextView
+                android:id="@+id/ayakashi_triangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayakashi Triangle"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga208"
+                app:layout_constraintEnd_toStartOf="@id/jigokuraku"
+                app:layout_constraintStart_toEndOf="@id/ansatsu_kyoushitsu"
+                app:layout_constraintTop_toBottomOf="@+id/manga205" />
+
+            <ImageButton
+                android:id="@+id/manga206"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga206"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/manga205"
+                app:layout_constraintTop_toBottomOf="@+id/aragane_no_ko" />
+
+            <TextView
+                android:id="@+id/jigokuraku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jigokuraku"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga209"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ayakashi_triangle"
+                app:layout_constraintTop_toBottomOf="@id/manga206" />
+
+            <ImageButton
+                android:id="@+id/manga207"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga207"
+                app:layout_constraintBottom_toTopOf="@id/ayashimon"
+                app:layout_constraintEnd_toStartOf="@+id/manga208"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ansatsu_kyoushitsu" />
+
+            <TextView
+                android:id="@+id/ayashimon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayashimon"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga210"
+                app:layout_constraintEnd_toStartOf="@id/ao_no_hako"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/manga207" />
+
+            <ImageButton
+                android:id="@+id/manga208"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga208"
+                app:layout_constraintBottom_toTopOf="@id/ao_no_hako"
+                app:layout_constraintEnd_toStartOf="@+id/manga209"
+                app:layout_constraintStart_toEndOf="@+id/manga207"
+                app:layout_constraintTop_toBottomOf="@+id/ayakashi_triangle" />
+
+            <TextView
+                android:id="@+id/ao_no_hako"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ao no Hako"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga211"
+                app:layout_constraintEnd_toStartOf="@id/bone_collection"
+                app:layout_constraintStart_toEndOf="@id/ayashimon"
+                app:layout_constraintTop_toBottomOf="@id/manga208" />
+
+            <ImageButton
+                android:id="@+id/manga209"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga209"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/manga208"
+                app:layout_constraintTop_toBottomOf="@+id/jigokuraku" />
+
+            <TextView
+                android:id="@+id/bone_collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bone Collection"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@id/manga212"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ao_no_hako"
+                app:layout_constraintTop_toBottomOf="@id/manga209" />
+
+            <ImageButton
+                android:id="@+id/manga210"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga210"
+                app:layout_constraintEnd_toStartOf="@+id/manga211"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ayashimon" />
+
+            <TextView
+                android:id="@+id/burn_the_witch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Burn The Witch"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/dandadan"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/manga210" />
+
+            <ImageButton
+                android:id="@+id/manga211"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga211"
+                app:layout_constraintEnd_toStartOf="@+id/manga212"
+                app:layout_constraintStart_toEndOf="@+id/manga210"
+                app:layout_constraintTop_toBottomOf="@+id/ao_no_hako" />
+
+            <TextView
+                android:id="@+id/dandadan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dandadan"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/kimetsu_no_yaiba"
+                app:layout_constraintStart_toEndOf="@id/burn_the_witch"
+                app:layout_constraintTop_toBottomOf="@id/manga211" />
+
+            <ImageButton
+                android:id="@+id/manga212"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/manga212"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/manga211"
+                app:layout_constraintTop_toBottomOf="@+id/bone_collection" />
+
+            <TextView
+                android:id="@+id/kimetsu_no_yaiba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kimetsu no Yaiba"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/dandadan"
+                app:layout_constraintTop_toBottomOf="@id/manga212" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
