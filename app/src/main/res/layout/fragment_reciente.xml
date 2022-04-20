@@ -33,7 +33,7 @@
 
             <TextView
                 android:id="@+id/reciente1"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
@@ -44,10 +44,11 @@
 
             <ImageButton
                 android:id="@+id/tr_icon"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:backgroundTint="#00FFFFFF"
                 android:src="@drawable/icono_tr"
@@ -58,19 +59,22 @@
 
             <TextView
                 android:id="@+id/tokyo_revengers"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Tokyo Revengers"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/d_gray_man"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tr_icon" />
 
             <ImageButton
                 android:id="@+id/dgm_icon"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -83,9 +87,11 @@
 
             <TextView
                 android:id="@+id/d_gray_man"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="D.Gray-Man"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -95,10 +101,11 @@
 
             <ImageButton
                 android:id="@+id/bc_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:backgroundTint="#00FFFFFF"
                 android:src="@drawable/bc_icono"
@@ -109,19 +116,22 @@
 
             <TextView
                 android:id="@+id/black_clover"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Black Clover"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/kenshin"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/bc_icono" />
 
             <ImageButton
                 android:id="@+id/ksn_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -134,9 +144,11 @@
 
             <TextView
                 android:id="@+id/kenshin"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Kenshin"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -146,7 +158,7 @@
 
             <TextView
                 android:id="@+id/dos_dias"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
@@ -157,10 +169,11 @@
 
             <ImageButton
                 android:id="@+id/dn_icon"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/dn_icono"
                 app:layout_constraintEnd_toStartOf="@+id/k8_icon"
@@ -170,19 +183,22 @@
 
             <TextView
                 android:id="@+id/death_note"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Death Note"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/kaiju8"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/dn_icon" />
 
             <ImageButton
                 android:id="@+id/k8_icon"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -194,9 +210,11 @@
 
             <TextView
                 android:id="@+id/kaiju8"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Kaiju N.8"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -206,10 +224,11 @@
 
             <ImageButton
                 android:id="@+id/tg_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/tg_icono"
                 app:layout_constraintEnd_toStartOf="@+id/nsp_icono"
@@ -218,19 +237,22 @@
 
             <TextView
                 android:id="@+id/tokyo_ghoul"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Tokyo Ghoul"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/naruto_shippuden"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tg_icono" />
 
             <ImageButton
                 android:id="@+id/nsp_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -241,9 +263,11 @@
 
             <TextView
                 android:id="@+id/naruto_shippuden"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Naruto Shippuden"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -253,7 +277,7 @@
 
             <TextView
                 android:id="@+id/tres_dias"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
@@ -264,10 +288,11 @@
 
             <ImageButton
                 android:id="@+id/aa_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/aa_icono"
                 app:layout_constraintEnd_toStartOf="@+id/boruto_icono"
@@ -277,19 +302,22 @@
 
             <TextView
                 android:id="@+id/act_age"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Act Age"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/boruto"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/aa_icono" />
 
             <ImageButton
                 android:id="@+id/boruto_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -300,9 +328,11 @@
 
             <TextView
                 android:id="@+id/boruto"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Boruto"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -312,10 +342,11 @@
 
             <ImageButton
                 android:id="@+id/bakuman_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/bakuman"
                 app:layout_constraintEnd_toStartOf="@+id/drs_icono"
@@ -324,19 +355,22 @@
 
             <TextView
                 android:id="@+id/bakuman"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Bakuman"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/dr_stone"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/bakuman_icono" />
 
             <ImageButton
                 android:id="@+id/drs_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -347,9 +381,11 @@
 
             <TextView
                 android:id="@+id/dr_stone"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Dr.Stone"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -359,7 +395,7 @@
 
             <TextView
                 android:id="@+id/cuatro_dias"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
@@ -370,10 +406,11 @@
 
             <ImageButton
                 android:id="@+id/slime_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/slime_icono"
                 app:layout_constraintEnd_toStartOf="@+id/onk_icono"
@@ -382,19 +419,22 @@
 
             <TextView
                 android:id="@+id/tensura"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="TenSura"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/oshi_no_ko"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/slime_icono" />
 
             <ImageButton
                 android:id="@+id/onk_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -405,9 +445,11 @@
 
             <TextView
                 android:id="@+id/oshi_no_ko"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Oshi no Ko"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -416,10 +458,11 @@
 
             <ImageButton
                 android:id="@+id/berserk_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/berserk_icono"
                 app:layout_constraintEnd_toStartOf="@+id/tg_re_icono"
@@ -428,19 +471,22 @@
 
             <TextView
                 android:id="@+id/berserk"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Berserk"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/tokyo_ghoul_re"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/berserk_icono" />
 
             <ImageButton
                 android:id="@+id/tg_re_icono"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -451,9 +497,11 @@
 
             <TextView
                 android:id="@+id/tokyo_ghoul_re"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Tokyo Ghoul: Re"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -463,7 +511,7 @@
 
             <TextView
                 android:id="@+id/cinco_dias"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
@@ -475,10 +523,11 @@
 
             <ImageButton
                 android:id="@+id/manga101"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/manga101"
                 app:layout_constraintEnd_toStartOf="@+id/manga102"
@@ -487,32 +536,37 @@
 
             <TextView
                 android:id="@+id/kaguya_sama"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Kaguya-sama"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/chainsaw_man"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/manga101" />
 
             <ImageButton
                 android:id="@+id/manga102"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/manga102"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/slime_icono"
+                app:layout_constraintStart_toEndOf="@id/manga101"
                 app:layout_constraintTop_toBottomOf="@+id/cinco_dias" />
 
             <TextView
                 android:id="@+id/chainsaw_man"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Chainsaw Man"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -521,10 +575,11 @@
 
             <ImageButton
                 android:id="@+id/manga103"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/manga103"
                 app:layout_constraintEnd_toStartOf="@+id/manga104"
@@ -533,18 +588,20 @@
 
             <TextView
                 android:id="@+id/promised_neverland"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="The Promised Neverland"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/my_hero_academia"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/manga103" />
 
             <ImageButton
                 android:id="@+id/manga104"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
@@ -556,9 +613,11 @@
 
             <TextView
                 android:id="@+id/my_hero_academia"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="My Hero Academia"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -567,7 +626,7 @@
 
             <TextView
                 android:id="@+id/seis_dias"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
@@ -578,10 +637,11 @@
 
             <ImageButton
                 android:id="@+id/manga105"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/manga105"
                 app:layout_constraintEnd_toStartOf="@+id/manga106"
@@ -590,19 +650,22 @@
 
             <TextView
                 android:id="@+id/kingdom"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Kingdom"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/gotoubun"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/manga105" />
 
             <ImageButton
                 android:id="@+id/manga106"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -613,9 +676,11 @@
 
             <TextView
                 android:id="@+id/gotoubun"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Gotoubun"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -624,10 +689,11 @@
 
             <ImageButton
                 android:id="@+id/manga107"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/manga107"
                 app:layout_constraintEnd_toStartOf="@+id/manga108"
@@ -636,19 +702,22 @@
 
             <TextView
                 android:id="@+id/haikyuu"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Haikyuu!!!"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/mushoku"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/manga107" />
 
             <ImageButton
                 android:id="@+id/manga108"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -659,9 +728,11 @@
 
             <TextView
                 android:id="@+id/mushoku"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Mushoku Tensei"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -671,7 +742,7 @@
 
             <TextView
                 android:id="@+id/siete_dias"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
@@ -683,10 +754,11 @@
 
             <ImageButton
                 android:id="@+id/manga109"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/manga109"
                 app:layout_constraintEnd_toStartOf="@+id/manga110"
@@ -695,20 +767,23 @@
 
             <TextView
                 android:id="@+id/detective_conan"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Detective Conan"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/spy_family"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/manga109" />
 
 
             <ImageButton
                 android:id="@+id/manga110"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -719,9 +794,11 @@
 
             <TextView
                 android:id="@+id/spy_family"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Spy x Family"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -731,10 +808,11 @@
 
             <ImageButton
                 android:id="@+id/manga111"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@null"
                 android:src="@drawable/manga111"
                 app:layout_constraintEnd_toStartOf="@+id/manga112"
@@ -743,19 +821,22 @@
 
             <TextView
                 android:id="@+id/takagi_san"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Takagi-san"
                 android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/fairy_tail"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/manga111" />
 
             <ImageButton
                 android:id="@+id/manga112"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:background="@null"
@@ -766,9 +847,11 @@
 
             <TextView
                 android:id="@+id/fairy_tail"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Fairy Tail"
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
